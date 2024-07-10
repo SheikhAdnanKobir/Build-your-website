@@ -245,3 +245,62 @@ background-color: white
     border-radius: 16px;
 }
 
+/* This is the third section */
+.main-3{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 111px;
+}
+
+.main-3-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+}
+.main-3-text h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
+
+.main-3-card{
+    display: flex;
+    gap: 15px;
+}
+.card-1{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.main-3-card-padd{
+    padding: 40px;
+    
+}
+
+.main-3-card .main-3-itm{
+    margin-bottom: 10px;
+}
+.main-3-card a{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
