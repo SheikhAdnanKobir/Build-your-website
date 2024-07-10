@@ -7,7 +7,9 @@
 body{
     font-family: "Inter", sans-serif;
 }
-/* NAV bar site */
+
+
+/*This is the NAV-Bar section  */
 #hed .hed-1{
     width: 1200px;
     margin: 0 auto;
@@ -32,6 +34,9 @@ body{
     color: black;
     opacity: 0.7;
 }
+
+
+/* This is the Banner section */
 #hed .banner{
     width: 1480px;
     height: 652px;
@@ -43,8 +48,6 @@ body{
     justify-content: center;
     border: 2px dashed rgba(0, 0, 0, 0.128);
 }
-
-/* banner site */
 .banner .Bernard-insight{
     width: 998px;
     height: 582px;
@@ -80,7 +83,8 @@ body{
     font-weight: 600;
 }
 
-/* main section number one work */
+
+/* This is the first section */
 .main-1{
     width: 1140px;
     height: 1393px;
@@ -197,3 +201,47 @@ background-color: white
     text-decoration: none;
     color: black;
 }
+
+
+/* This is the second section */
+.main-2{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 151px;
+}
+.main-2 .main-2-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-2-text h1{
+    margin-top: -25px;
+    font-size: 35px;
+}
+.main-2-text p{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.main-2 .main-2-video{
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 16px;
+}
+.main-2-video iframe{
+    border-radius: 16px;
+}
+
