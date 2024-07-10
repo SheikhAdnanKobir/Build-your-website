@@ -383,3 +383,83 @@ background-color: white
     font-size: 15px;
     font-weight: 800;
 }
+
+/* This is fifth section */
+.main-5-support{
+    width: 1140px;
+    height: 313px;
+    
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.301)100%,rgba(0, 0, 0, 0.301)100%), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.support-container{
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+}
+.support-heading{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.support-text{
+    font-size: 15px;
+    color: white;
+}
+.inp input{
+    width: 548px;
+    height: 47px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0 solid;
+    margin-right: 5px;
+}
+.inp button{
+    height: 47px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.inp input[placeholder]{
+    padding-left: 10px;
+}
+.inp button a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* This is footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.foot{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.icon{
+    display: flex;
+    gap: 25px;
+}
